@@ -14,5 +14,5 @@ store() - takes an address, a size, and a value and stores the first -size- byte
 load() - takes an address and a size and returns the next -size- bytes starting at the given address. The check_align is the same as that of store().
 
 <p align="center">
-  <img width="460" height="1000" src="https://github.com/YFateen/RISCV/blob/master/Photos/ISA.png">
+  <img width="571" height="831" src="https://github.com/YFateen/RISCV/blob/master/Photos/ISA.png">
 </p>
