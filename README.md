@@ -4,7 +4,7 @@ I created an emulator that is able to execute a subset of the RISC-V instruction
 Provided the machinery to decode and execute a subset RISC-V instructions shown below. 
 
 
-In addition to executing the instructions provided, the system is capable of soring and loading values at specified addresses as defined below. 
+In addition to executing the instructions provided, the system is capable of storing and loading values at specified addresses as defined below. 
 
 #### execute_instruction() 
 Executes the instruction provided as a parameter. This should modify the appropriate registers, make any necessary calls to memory, and updatge the program counter to refer to the next instruction to execute.
