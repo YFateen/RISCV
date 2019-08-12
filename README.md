@@ -10,10 +10,10 @@ In addition to executing the instructions provided, the system is capable of sto
 Executes the instruction provided as a parameter. This should modify the appropriate registers, make any necessary calls to memory, and updatge the program counter to refer to the next instruction to execute.
 
 #### execute()
-Various helper files to be called in certain conditions for certain instructions. Whether you use these functions is up to you, but they will greatly help you organize your code.
+Various helper files to be called in certain conditions for certain instructions. 
 
 #### store()
-Takes an address, a size, and a value and stores the first -size- bytes of the given value at the given address. The check_align parameter will enforce alignment constraints when the parameter is 1. We include this parameter to enforce that instructions are word-aligned. 
+Takes an address, a size, and a value and stores the first -size- bytes of the given value at the given address. The check_align parameter will enforce alignment constraints when the parameter is 1. I included this parameter to enforce that instructions are word-aligned. 
 
 #### load()
 Takes an address and a size and returns the next -size- bytes starting at the given address. The check_align is the same as that of store().
